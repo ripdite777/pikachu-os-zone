@@ -30,7 +30,7 @@ const EditingSection = () => {
     {
       icon: Gauge,
       title: 'Bellek Temizleme',
-      description: 'Otomatik bellek temizleme (her 1 dakika veya 10 MB RAM kullanımında)'
+      description: 'Otomatik bellek temizleme (her 1 dakika veya %10 RAM kullanımında)'
     }
   ];
 
