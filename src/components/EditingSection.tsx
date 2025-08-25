@@ -10,7 +10,7 @@ const EditingSection = () => {
     {
       icon: Settings,
       title: 'Özelleştirilmiş Kurulum',
-      description: 'Kurulum başlatma menüsü ve C:\\OgnitorenKs başlangıç scripti ile optimize edildi'
+      description: 'Kurulum sonrası C:\\PikachuOS klasöründeki start_pikachuos.bat dosyasını çalıştırarak sistem optimize edilir'
     },
     {
       icon: Download,
