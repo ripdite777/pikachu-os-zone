@@ -33,22 +33,23 @@ const Index = () => {
 
   const downloadLinks = [
     {
-      title: 'Setup.exe - Manuel Kurulum',
-      description: 'Mevcut sisteminiz üzerine kurulum için',
+      title: 'Ventoy',
+      description: 'ISOyu Önyüklenebilir Hale Getirmek İçin Araç',
+      url: 'https://sourceforge.net/projects/ventoy/files/v1.1.07',
+      type: 'bootable-iso-tool'
+    },
+
+    {
+      title: 'Windows 11 Core Home - 23H2 SuperLite',
+      description: 'PikachuOS 11 Core HOME - 22H2 SuperLite (Rufus & Ventoy)',
       url: '#',
-      type: 'setup'
+      type: 'superlite'
     },
     {
-      title: 'Lite ISO - USB Boot',
-      description: 'Temel özelliklerle hafif kurulum',
+      title: 'Windows 10 Home - 22H2 SuperLite',
+      description: 'PikachuOS 10 HOME - 22H2 SuperLite (Rufus & Ventoy)',
       url: '#',
-      type: 'lite'
-    },
-    {
-      title: 'Full ISO - Tüm Özellikler',
-      description: 'Bütün optimizasyonlar dahil tam paket',
-      url: '#',
-      type: 'full'
+      type: 'superlite'
     }
   ];
 
@@ -77,7 +78,11 @@ const Index = () => {
     },
     {
       question: 'İndirme bağlantıları nerede?',
-      answer: 'İndirme bölümünde Setup.exe, Lite ISO ve Full ISO seçenekleri mevcuttur. İhtiyacınıza göre uygun olanı seçebilirsiniz.'
+      answer: 'İndirme bölümünde Ventoy, Windows 11 Home 23H2 SuperLite ve Windows 10 Home 22H2 SuperLite seçenekleri mevcuttur. İhtiyacınıza göre uygun olanı seçebilirsiniz.'
+    },
+    {
+      question: 'ISO önyüklenebilir nasıl yapılır?',
+      answer: 'En iyi uyum için Ventoyu kullanabilirsiniz veya, Rufus ve Balena Etcher, ben Ventoyu tercih ediyorum siz de kullanabilirsiniz.'
     },
     {
       question: 'AntiCheat desteği var mı?',
